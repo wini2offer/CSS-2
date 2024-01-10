@@ -1,0 +1,115 @@
+/* universal selector */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+.First, .Fourth{
+    flex: 30%;
+}
+
+/* name selector */
+footer{
+    font-weight: 100%;
+    height: 350px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+h4{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+ul{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    line-height: 5px;
+    color: grey;
+}
+a:hover{
+    text-decoration: underline;
+    color: green;
+}
+li{
+    line-height: 30px;
+}
+/* .First{
+    flex: 30%;
+}
+
+.Fourth{
+    flex: 30%;
+} */
+.search-container{
+    display: flex;
+    background-color: whitesmoke;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-paragraph{
+width: 350px;
+color: gray;
+font-size: 10px;
+}
+
+input{
+    border: none;
+    background-color: whitesmoke;
+    outline: none;
+}
+
+
+
+
+.Second{
+    flex: 20%;
+}
+
+.Third{
+    flex: 20%;
+}
+
+.footer-icon{
+    width: 100%;
+    display: flex;
+    
+}
+
+/* id selector */
+#first-paragraph{
+    font-size: 18;
+    color: grey;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+
+/* class selector */
+.logo{
+    width: 100px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#icon{
+font-size: 25px;
+color: purple;
+margin-right: 25px;
+}
+#icon:hover{
+    color: orange;
+    font-size: 35px;
+}
